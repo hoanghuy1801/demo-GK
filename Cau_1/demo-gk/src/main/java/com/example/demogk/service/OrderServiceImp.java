@@ -23,10 +23,10 @@ public class OrderServiceImp  implements OrderService{
 		return orderRepository.save(order);
 	}
 
-//	@Override
-//	public List<Order> getOrder() {
-//		// TODO Auto-generated method stub
-//		return orderRepository.findAll();
-//	}
+	@Override
+	public List<Order> getOrder() {
+		// TODO Auto-generated method stub
+		return orderRepository.findAll();
+	}
 
 }

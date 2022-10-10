@@ -8,5 +8,5 @@ import com.example.demogk.entity.Order;
 
 public interface OrderService {
 	Order createOrder (Order order);
-	//List<Order> getOrder ();
+	List<Order> getOrder ();
 }
